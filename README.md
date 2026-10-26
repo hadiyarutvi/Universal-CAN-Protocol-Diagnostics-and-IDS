@@ -108,16 +108,6 @@ EngineData | CAN ID: 0x100 | Speed: 65 mph
 
 The decoded speed should appear repeatedly while the simulator is transmitting.
 
-## Screenshots
-
-### Raw CAN Traffic
-
-![Raw CAN output](candump_output.png)
-
-### Decoded CAN Data
-
-![Translator output](translator_output.png)
-
 ## Troubleshooting
 
 - **`vcan0` not found:** Run `sudo ./setup_vcan.sh`.
